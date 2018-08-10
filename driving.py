@@ -1,0 +1,9 @@
+country = input('國家：')
+age = input('年齡：')
+age = int(age)
+
+if country == '台灣' or country == '臺灣' or country == 'Taiwan':
+	if age >= 18:
+		print('你可以考駕照')
+	else:
+		print('你還不可以考駕照')
